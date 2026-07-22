@@ -1,14 +1,14 @@
 import './App.css'
-import {TodoListItems} from "./TodolistItem.tsx";
+import {TodoList} from "./TodoList.tsx";
 
 export const  App = () => {
   return (
       <div className="app">
-        <div className = "app">
-         <TodoListItems/>
-         <TodoListItems/>
-         <TodoListItems/>
-        </div>
+
+         <TodoList title ="What to lern"/>
+         <TodoList title ="Song"/>
+         <TodoList title ="Books"/>
+
       </div>
   )
 }
